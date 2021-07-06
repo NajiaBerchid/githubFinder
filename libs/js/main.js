@@ -7,8 +7,8 @@ $(document).ready(function () {
             url: 'https://api.github.com/users/' + username,
             data: {
           
-                client_id: 'abc5b3d5036406d6a2dc',
-                client_secret: '9ee318719009ad514c84f1a65d3f1811367a999e'
+                client_id: '',
+                client_secret: ''
 
             },
             success: function (user) {
